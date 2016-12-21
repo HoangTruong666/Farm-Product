@@ -47,7 +47,6 @@ public class SQLite extends SQLiteOpenHelper {
                 "                         NOT NULL" +
                 "                         REFERENCES Type (ID_Type)," +
                 "    IMG          BLOB," +
-				"    KL          Long," +
                 "    Price        LONG," +
                 "    Count        INTEGER," +
                 "    ID_USER      INTEGER  REFERENCES User (ID)" +
